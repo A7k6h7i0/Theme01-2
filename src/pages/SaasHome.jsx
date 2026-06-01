@@ -10,7 +10,8 @@ import Section from '../components/ui/Section';
 import Container from '../components/ui/Container';
 import Button from '../components/ui/Button';
 import {
-  Zap, Code, LineChart, Lock, RefreshCw, Layers, ArrowRight, Check
+  Zap, Code, LineChart, Lock, RefreshCw, Layers, ArrowRight, Check,
+  Activity, ShieldCheck, Link2, Users
 } from 'lucide-react';
 
 const SaasHome = () => {
@@ -82,10 +83,10 @@ const SaasHome = () => {
       <Stats
         background="light"
         stats={[
-          { label: 'API Requests / day', value: '500M+', icon: '⚡' },
-          { label: 'Uptime Guarantee', value: '99.99%', icon: '🛡️' },
-          { label: 'Native Integrations', value: '200+', icon: '🔗' },
-          { label: 'Active Developers', value: '50K+', icon: '👨‍💻' },
+          { label: 'API Requests / day', value: '500M+', icon: Activity },
+          { label: 'Uptime Guarantee', value: '99.99%', icon: ShieldCheck },
+          { label: 'Native Integrations', value: '200+', icon: Link2 },
+          { label: 'Active Developers', value: '50K+', icon: Users },
         ]}
       />
 

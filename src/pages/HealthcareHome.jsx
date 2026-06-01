@@ -9,7 +9,8 @@ import Section from '../components/ui/Section';
 import Container from '../components/ui/Container';
 import Button from '../components/ui/Button';
 import {
-  Heart, Activity, Stethoscope, Calendar, Shield, Clock, CheckCircle2, ArrowRight
+  Heart, Activity, Stethoscope, Calendar, Shield, Clock, CheckCircle2, ArrowRight,
+  Building2, Users, Lock, Zap
 } from 'lucide-react';
 
 const HealthcareHome = () => {
@@ -79,10 +80,10 @@ const HealthcareHome = () => {
       <Stats
         background="primary"
         stats={[
-          { label: 'Medical Institutions', value: '800+', icon: '🏥' },
-          { label: 'Patients Served', value: '5M+', icon: '❤️' },
-          { label: 'HIPAA Compliance', value: '100%', icon: '🔐' },
-          { label: 'Response Time', value: '<2hr', icon: '⚡' },
+          { label: 'Medical Institutions', value: '800+', icon: Building2 },
+          { label: 'Patients Served', value: '5M+', icon: Heart },
+          { label: 'HIPAA Compliance', value: '100%', icon: Lock },
+          { label: 'Response Time', value: '<2hr', icon: Zap },
         ]}
       />
 
