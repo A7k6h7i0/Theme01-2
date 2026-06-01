@@ -7,7 +7,7 @@ const members = [
   {
     name: 'Alexandra Pierce',
     role: 'CEO & Co-Founder',
-    image: 'https://images.unsplash.com/photo-1494790108755-2616b612b47c?auto=format&fit=crop&q=80&w=400',
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400',
     bio: 'Former VP at Google with 15 years building world-class products.',
     gradient: 'from-blue-600 to-primary-600',
   },
